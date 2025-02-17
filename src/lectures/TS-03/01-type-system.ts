@@ -38,7 +38,7 @@ const studentA = {
 
 
 // Không thể thay đổi giá trị
-studentA.name = 'Typescript is easy, really?!'; 
+// studentA.name = 'Typescript is easy, really?!'; 
 // Error: Cannot assign to 'name' because it is a read-only property.
 // => Không thể thay đổi student.name vì nó đã trở thành readonly.
 
@@ -46,8 +46,8 @@ studentA.name = 'Typescript is easy, really?!';
 
 const colors = ['red', 'green', 'blue'] as const;
 
-colors.push('yellow'); // Error: Property 'push' does not exist on type 'readonly ["red", "green", "blue"]'.
-colors[0] = 'black';   // Error: Cannot assign to '0' because it is a read-only property.
+// colors.push('yellow'); // Error: Property 'push' does not exist on type 'readonly ["red", "green", "blue"]'.
+// colors[0] = 'black';   // Error: Cannot assign to '0' because it is a read-only property.
 
 //Type Assertion
 
