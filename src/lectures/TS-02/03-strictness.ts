@@ -22,7 +22,7 @@ function findStudentById1(studentList: Student[], studentId: number): Student | 
   studentList.find((x) => x.id === studentId);
 }
 
-const studentList: Student[] = [
+const studentList1: Student[] = [
   { id: 1, name: 'Uyen', gender: 'female', age: 20 },
   { id: 2, name: 'Vanasa', gender: 'male', age: 18 },
 ];
